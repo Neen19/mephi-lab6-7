@@ -1,6 +1,6 @@
 package net.proselyte.webfluxsecurity.mapper;
 
-import net.proselyte.webfluxsecurity.dto.UserDto;
+import net.proselyte.webfluxsecurity.dto.user.UserDto;
 import net.proselyte.webfluxsecurity.entity.UserEntity;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;

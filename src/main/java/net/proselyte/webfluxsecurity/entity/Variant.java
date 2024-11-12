@@ -7,20 +7,18 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
 
-import java.util.List;
-
 @Data
 @Builder(toBuilder = true)
 @NoArgsConstructor
 @AllArgsConstructor
-@Table("questions")
-public class Question {
+@Table("variants")
+public class Variant {
 
     @Id
     private Long id;
 
-    private Long listId;
+    private Long questionId;
 
-    private String question;
+    private String variant;
 
 }

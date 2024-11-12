@@ -13,7 +13,7 @@ import java.util.List;
 @Builder(toBuilder = true)
 @NoArgsConstructor
 @AllArgsConstructor
-@Table("questions")
+@Table("question_list")
 public class QuestionList {
 
     @Id

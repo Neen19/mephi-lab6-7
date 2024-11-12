@@ -4,8 +4,8 @@ server:
 spring:
   r2dbc:
     url: r2dbc:pool:postgres://localhost:5432/postgres
-    username: admin
-    password: root
+    username: postgres
+    password: postgres
   flyway:
     url: jdbc:postgresql://localhost:5432/postgres
     locations: classpath:db/migration

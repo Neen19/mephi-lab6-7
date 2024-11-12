@@ -3,7 +3,7 @@ package net.proselyte.webfluxsecurity.rest;
 import lombok.RequiredArgsConstructor;
 import net.proselyte.webfluxsecurity.dto.AuthRequestDto;
 import net.proselyte.webfluxsecurity.dto.AuthResponseDto;
-import net.proselyte.webfluxsecurity.dto.UserDto;
+import net.proselyte.webfluxsecurity.dto.user.UserDto;
 import net.proselyte.webfluxsecurity.entity.UserEntity;
 import net.proselyte.webfluxsecurity.mapper.UserMapper;
 import net.proselyte.webfluxsecurity.security.CustomPrincipal;

@@ -1,4 +1,4 @@
-package net.proselyte.webfluxsecurity.dto;
+package net.proselyte.webfluxsecurity.dto.user;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;

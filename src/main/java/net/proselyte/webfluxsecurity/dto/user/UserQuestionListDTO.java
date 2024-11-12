@@ -1,9 +1,10 @@
-package net.proselyte.webfluxsecurity.dto;
+package net.proselyte.webfluxsecurity.dto.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import net.proselyte.webfluxsecurity.dto.QuestionDTO;
 
 import java.util.List;
 
@@ -11,12 +12,8 @@ import java.util.List;
 @Builder(toBuilder = true)
 @NoArgsConstructor
 @AllArgsConstructor
-public class QuestionDTO {
+public class UserQuestionListDTO {
 
-    private String question;
-
-    private List<String> variants;
-
-    private List<String> answers;
+    private List<QuestionDTO> questions;
 
 }
