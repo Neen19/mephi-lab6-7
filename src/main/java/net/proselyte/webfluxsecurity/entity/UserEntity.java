@@ -22,6 +22,7 @@ public class UserEntity {
     private boolean enabled;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
+    private Long questionsId;
 
     @ToString.Include(name = "password")
     private String maskPassword() {

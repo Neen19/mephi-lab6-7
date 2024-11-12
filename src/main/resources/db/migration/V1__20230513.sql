@@ -7,5 +7,6 @@ CREATE TABLE users (
     last_name  VARCHAR(64)   NOT NULL,
     enabled    BOOLEAN       NOT NULL DEFAULT FALSE,
     created_at TIMESTAMP,
-    updated_at TIMESTAMP
+    updated_at TIMESTAMP,
+    questions_id INTEGER
 );
